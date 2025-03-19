@@ -1,29 +1,31 @@
 #include <stdio.h>
-//Desafio super trunfo cadastro de cartas
-//teste maciel 
+//Desafio super trunfo cadastro de cartas..
+//Desafio nivel novato...
+//Aluno: maciel dias..
 
-int mais(){
-char estado[50]="Goias";
-char nomedacidade[40]="Goiania";
-int populaçao = 30000;
-double areakm²= 729.29;
-float pib= 38.48;
+int main(){
+//Carta1:
+    char estado[10]='B';
+    char codigo[10]="B01";
+    char cidade[20]="salvador";
+    int populaçao = 30000;
+    float areakm²= 100000;
+    float pib= 30000;
+    int pontos_turisticos=50;
 
-printf ("digite o nome do estado/n");
-scanf ("%s", &estado);
+//Carta2:
+    char estado[12]='C';
+    char codigo[10]="C02";
+    char cidade[20]="Fortaleza";
+    int populaçao= 550000;
+    float areakm²=220000;
+    float pib=660000;
+    int pontos_turisticos=40;
 
-printf("digite o nome da cidade/n");
-scanf("s",&nomedacidade);
-
-printf("digite a area da cidade/n");
-scanf("%f",&areakm²);
-
-printf("entre com valor do pib/n");
-scanf("%f",&pib);
-
-printf("entre com quantidade de pessoas/n");
-scaf("%d",&populaçao);
+//Leitura de dados das cartas do desafio...
+//Dados de entrada e saida dados..
+//Carta1:
 
 
-return 0;
+
 }
